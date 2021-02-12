@@ -1,0 +1,183 @@
+body {
+	background-color:#efe9db;
+	top-padding:25px;
+	right-padding:50px;   
+	text-align: justify; 
+	border-style: solid;
+	border-color:#4b5320;
+	animation: fade 4s ease-in-out; 
+}
+
+@keyframes fade {
+  0% {
+     opacity:0;
+  }
+  
+  20% {
+     opacity:0.2;
+  }
+  
+  40% {
+   opacity:0.4;
+  }
+  
+  60% {
+    opacity:0.6;
+  }
+
+  80% {
+     opacity:0.8;
+  }
+
+  100% {
+    opacity:1.0;
+  }
+}
+
+
+@font-face {
+    font-family: 'hello_honey_-_personal_useRg';
+    src: url('webfontkit-20210211-215506/hello_honey-webfont.woff2') format('woff2'),
+         url('webfontkit-20210211-215506/hello_honey-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chapaza_italicitalic';
+    src: url('webfontkit-20210211-223028/chapaza_italic-webfont.woff2') format('woff2'),
+         url('webfontkit-20210211-223028/chapaza_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'chapazaregular';
+    src: url('webfontkit-20210211-223028/chapaza-webfont.woff2') format('woff2'),
+         url('webfontkit-20210211-223028/chapaza-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'yessicabold';
+    src: url('yessica-bold-webfont.woff2') format('woff2'),
+         url('yessica-bold-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'yessicaregular';
+    src: url('yessica-light-webfont.woff2') format('woff2'),
+         url('yessica-light-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+h1 {
+	font-family:'hello_honey_-_personal_useRg';
+	font-weight:300;
+	font-size:200px;
+	padding-left:200px;
+	color:#4b5320;
+}
+
+.mini {
+	font-family:'chapazaregular';
+	font-weight:100;
+	font-size:20px;
+	color:#d68162;
+	letter-spacing:-0.3px;
+}
+
+
+.heading1{
+	font-family:'yessicabold';
+	font-weight:300;
+	font-size:40px;
+	color:#4b5320;
+	text-align: justify;
+	text-decoration:underline;
+}
+
+.heading2 {
+	font-family:'yessicabold';
+	font-weight:200;
+	font-size:30px;
+	color:#4b5320;
+	text-align: justify;
+}
+
+.row{
+	column-count:2;
+	column-width:50%;
+	padding-top:10px;
+}
+
+.column {
+	padding-top:10px;
+	padding-left:10px;
+}
+#column1{
+	padding-left:50px;
+	padding-right:5px;
+}
+
+#column2{
+	padding-right:10px;
+	padding-left:30px;
+}
+.keep {
+	font-family:'yessicaregular';
+	font-weight:100;
+	font-size:21px;
+	padding-right:10px;
+	padding-left:10px;
+	color:#d68162;
+	text-align: justify;
+	line-height:1.5
+}
+
+.ingredients {
+	font-family:'yessicaregular';
+	font-weight:100;
+	font-size:25px;
+	padding-right:10px;
+	padding-left:10px;
+	color:#d68162;
+	text-align: justify;
+}
+
+.instructions {
+	font-family:'yessicaregular';
+	font-weight:100;
+	font-size:25px;
+	padding-right:10px;
+	padding-left:10px;
+	color:#d68162;
+	text-align: justify;
+}
+.last {
+	font-family:'yessicaregular';
+	font-weight:200;
+	font-size:25px;
+	padding-right:10px;
+	padding-left:10px;
+	color:#4b5320;
+	text-align: justify;
+}
+#cake {
+	vertical-align:middle;
+	padding-right:30px;
+	padding-left:30px;
+}
+/*Style your page here*/
+
+
+
+webfontkit-20210211-215506
+
